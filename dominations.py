@@ -411,7 +411,7 @@ def domination_aG(all_intervals):
     for i in results:
         print(i)
 
-# sprawdzanie dominacji dla Ag
+# sprawdzanie dominacji dla Awg
 def domination_aWG(all_intervals):
     print("Domination Geometric_weighted_mean >> Operator_W")
     results = []

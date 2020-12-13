@@ -85,7 +85,7 @@ def a2(start1, stop1, start2, stop2):
 def a3(start1, stop1, start2, stop2):
     outcome_interval = []
     start = (start1 + start2) / 2
-    stop = ((stop1 ** 2) + (stop2 ** 2)) / 2
+    stop = ((stop1 ** 2) + (stop2 ** 2)) / (stop1 + stop2) #było podzielone przez 2
     outcome_interval = [start, stop]
     return outcome_interval
 

@@ -30,9 +30,9 @@ print("---------------- \n")
 #domination_aMean(all_intervals)
 #domination_aWMean(all_intervals)
 #domination_aG(all_intervals)
-#domination_aWG(all_intervals)
+#domination_aWG(all_intervals)      # false
 #domination_a2(all_intervals)
-#domination_a3(all_intervals)       # true
+#domination_a3(all_intervals)       # false
 #domination_a5(all_intervals)  
 #domination_a6(all_intervals)  
 #domination_a7(all_intervals)
