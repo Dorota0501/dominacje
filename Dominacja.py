@@ -23,20 +23,51 @@ for i in all_intervals:
     print(i)
 print("---------------- \n")
 
-#domination_or(all_intervals)       #\/
-#domination_and(all_intervals)      #\/
+#domination_or(all_intervals)       # \/
+#domination_Wor(all_intervals)      # \/ True
+
+#domination_and(all_intervals)      # /\
+#domination_Wand(all_intervals)     # /\
+
 #domination_aP(all_intervals)       # true
+#domination_WaP(all_intervals)       
+
 #domination_aQ(all_intervals)       # false
+#domination_WaQ(all_intervals)      # true
+
 #domination_aMean(all_intervals)
+#domination_WaMean(all_intervals)
+
 #domination_aWMean(all_intervals)
+#domination_WaWMean(all_intervals)
+
 #domination_aG(all_intervals)
+#domination_WaG(all_intervals)
+
 #domination_aWG(all_intervals)      # false
+#domination_WaWG(all_intervals)     # true
+
 #domination_a2(all_intervals)
+#domination_Wa2(all_intervals)
+
 #domination_a3(all_intervals)       # false
+#domination_Wa3(all_intervals)      # true
+
 #domination_a5(all_intervals)  
+#domination_Wa5(all_intervals)
+  
 #domination_a6(all_intervals)  
+#domination_Wa6(all_intervals)      # true 
+
 #domination_a7(all_intervals)
+#domination_Wa7(all_intervals)
+
 #domination_a8(all_intervals)
+#domination_Wa8(all_intervals)
+
 #domination_a9(all_intervals)       # false
+#domination_Wa9(all_intervals)      # true
+
 #domination_a10(all_intervals)
+#domination_Wa10(all_intervals)
 
